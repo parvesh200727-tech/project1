@@ -1,0 +1,42 @@
+#box{
+    background-color: rgb(90, 181, 204,0.6);
+ height: 310px;
+ width: 210px;
+text-align: center;
+border-radius:15px;
+padding: 4px;
+
+}
+button{
+    height: 13%;
+    width: 20%;
+background-color: white;
+justify-content: center;
+text-align: center;
+align-items: center;
+border-radius: 10px;
+padding: 0;
+margin: 2.5px;
+
+
+
+}
+
+body{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20%;
+}
+#screen{
+    border-color: black;
+    padding: 20px;
+    text-align: left;
+    background-color: white;
+    margin: 5px;
+    border-radius: 20px;
+}
+.colour{
+    background-color: rgb(189, 223, 86,0.5);
+}
