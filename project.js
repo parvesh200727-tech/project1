@@ -32,6 +32,10 @@ symbols.forEach((symbol)=>{
             screen.innerText=string.length>0?string:lastval;
         ;
         }
+        if(e.target.innerText==='X'){
+            string=string.replace(/X/g, '*');
+            screen.innerText=string;
+        }
 function calculate(num1, num2, symbol) {
     switch (symbol) {
         case '+':
@@ -40,6 +44,7 @@ function calculate(num1, num2, symbol) {
             return num1 - num2;
         case '*':
             return num1 * num2;
+
         case '/':
             return num1 / num2;
             case '%':
