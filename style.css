@@ -6,6 +6,7 @@ text-align: center;
 border-radius:15px;
 padding: 4px;
 
+
 }
 button{
     height: 13%;
@@ -36,7 +37,8 @@ body{
     background-color: white;
     margin: 5px;
     border-radius: 20px;
-}
-.colour{
-    background-color: rgb(189, 223, 86,0.5);
+    overflow: hidden;
+    word-wrap: break-word;
+ white-space: nowrap;
+ 
 }
